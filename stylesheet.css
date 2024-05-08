@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Young Serif';
+    src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+    /* You can include other font formats here like woff, woff2, etc. */
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+    /* You can include other font formats here like woff, woff2, etc. */
+}
+
+.recipe-body {
+    background-color: rgba(243,229,216,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipe-body-white, img {
+    background-color: #fff;
+    width: 550px;
+    border-radius: 25px;
+}
+
+.top-header {
+    font-family: 'Young Serif', sans-serif;
+    margin: 5%;
+}
+
+.top-body {
+    font-family: 'Outfit';
+    color: #948b87;
+    margin: 5%;
+
+}
+
+.prep-time-header {
+    color: #8e546e;
+}
+
+.prep-time-list {
+    font-family: 'Outfit';
+    margin-bottom: 5%;
+    color: #948b87;
+}
+
+.prep-time {
+    background-color: rgba(255,247,252,255);
+    width: 500px;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ingredients {
+    margin: 5%;
+}
+
+.ingredients-header {
+    color: hsl(14, 45%, 36%)
+}
+
+.ingredients-list {
+    color: #948b87;
+}
+
+.instructions {
+    margin: 5%;
+}
+
+.instructions-header {
+    color: hsl(14, 45%, 36%);
+}
+
+.instructions-list {
+    font-family: 'Outfit';
+    color: #948b87;
+}
+
+.nutrition {
+    margin: 5%;
+}
+
+.nutrition-header {
+    color: hsl(14, 45%, 36%);
+}
+
+.nutrition-body {
+    color: #948b87;
+}
+
+.no-bullets {
+    list-style-type: none;
+    padding: 5px;
+    display: inline-block;
+    color: #948b87;
+    font-family: 'Outfit';
+    padding-left: 18%;
+    padding-right: 18%;
+}

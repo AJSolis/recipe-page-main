@@ -16,13 +16,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
-## Overview
-
-## My process
-
-### Built with
+# Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
